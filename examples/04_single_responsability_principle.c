@@ -6,7 +6,7 @@
 /*   By: lucafern <lucafern@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/09 13:22:13 by lucafern          #+#    #+#             */
-/*   Updated: 2025/03/09 13:31:32 by lucafern         ###   ########.fr       */
+/*   Updated: 2025/03/09 13:35:39 by lucafern         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -61,7 +61,9 @@ double	calculate_average(int sum, int count)
 
 const char	*evaluate_result(double average)
 {
-	return ((average >= 50) ? "PASS" : "FAIL");
+	if (average >= 50)
+		return ("PASS");
+	return ("FAIL");
 }
 
 void	display_results(int sum, double average, const char *evaluation)
