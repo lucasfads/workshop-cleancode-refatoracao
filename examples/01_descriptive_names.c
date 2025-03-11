@@ -12,6 +12,21 @@
 
 #include <stdio.h>
 
+// Abreviações são difíceis de entender sem um bom contexto
+// calc_ut -> difícil de entender
+// u       -> fácil de entender, pelo tipo da struct
+int calc_ut(t_user *u);
+
+// Sem abreviação
+int calculate_user_taxes(t_user *u);
+
+// Dirty: Nome sobre a implementação
+void brasehamns_algorithm(int x1, int y1, int x2, int y2);
+
+// Clean: Nome sobre o que a função faz
+void render_line(int start_x, int start_y, int end_x, int end_y);
+
+// Nome não explica o que a função faz
 int	my_func(int a, int b)
 {
 	return (a + b);
