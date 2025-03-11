@@ -12,6 +12,25 @@
 
 #include <stdio.h>
 
+// Inteligente, mas difícil de entender
+void    strcpy_clever(char *dst, const char *src)
+{
+    while (*dst++ = *src++);
+}
+
+// Fácil de ler
+void    strcpy_dumb(char *dest, const char *src)
+{
+    size_t    i;
+
+    i = 0;
+    while (src[i] != '\0')
+    {
+        dest[i] = src[i];
+        i++;
+    }
+}
+
 const char	*dirty_get_day(int day)
 {
 	if (day == 1)
