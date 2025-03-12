@@ -1,20 +1,13 @@
 # Workshop de Clean Code e Refatoração - 42 Rio
-
 Por [**gguedes**](https://github.com/gsistelos) && [**lucafern**](https://github.com/lucasfads)
-
----
 
 ## Clean Code: O quê e para quê?
 Código limpo é fácil de entender e manter.  
 A legibilidade, manutenção e colaboração são fundamentais para o sucesso de qualquer projeto de software.  
 Este repositório reúne exemplos práticos em C que demonstram os princípios do Clean Code, facilitando o aprendizado e a aplicação desses conceitos.
 
----
-
 ## A Norma
-Os exemplos _limpos_ aqui apresentados seguem, majoritariamente, as diretrizes da [**Norma** de codificação do 42](https://github.com/42school/norminette), garantindo consistência, clareza e qualidade no código.
-
----
+Os exemplos _limpos_ aqui apresentados seguem, majoritariamente, as diretrizes da [**Norma** de codificação da 42](https://github.com/42school/norminette), garantindo consistência, clareza e qualidade no código.
 
 ## Exemplos
 
@@ -42,9 +35,7 @@ Os exemplos _limpos_ aqui apresentados seguem, majoritariamente, as diretrizes d
    - **Princípio:** Comentários
    - **Resumo:** Demonstra como comentários excessivos podem indicar problemas de legibilidade e como um código bem escrito tende a precisar de menos explicações.
 
----
-
-## Recomendações de Leitura
+## Recomendações de leitura
 
 - Livro **Código Limpo** – Um guia essencial para escrever código claro e de fácil manutenção.
 - Livro **Refatoração** – Técnicas e estratégias para melhorar a estrutura do código sem alterar seu comportamento.
