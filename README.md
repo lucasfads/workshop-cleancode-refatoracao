@@ -37,6 +37,6 @@ Os exemplos _limpos_ aqui apresentados seguem, majoritariamente, as diretrizes d
 
 ## Recomendações de leitura
 
-- Livro **Código Limpo** – Um guia essencial para escrever código claro e de fácil manutenção.
-- Livro **Refatoração** – Técnicas e estratégias para melhorar a estrutura do código sem alterar seu comportamento.
+- Livro **Código Limpo**, de Robert C. Martin – Um guia essencial para escrever código claro e de fácil manutenção.
+- Livro **Refatoração**, de Martin Fowler – Técnicas e estratégias para melhorar a estrutura do código sem alterar seu comportamento.
 - [refactoring.guru](https://refactoring.guru) – Recurso online completo com conceitos e práticas de refatoração.
